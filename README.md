@@ -13,4 +13,4 @@ Total hours to create this app was around 2.5/3 hours.
 
 Currently working to add addition features like storing the billAmount when the app is left.
 
-![alt tag](https://github.com/ruparocks/TipCalculator/blob/master/Tip%20Calculator.gif)
+![alt tag](https://github.com/ruparocks/TipCalculator/blob/master/TipCalculator.gif)
