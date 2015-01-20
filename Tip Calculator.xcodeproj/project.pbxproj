@@ -14,7 +14,6 @@
 		463A629F1A6DA80E000F63EE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 463A629E1A6DA80E000F63EE /* Images.xcassets */; };
 		463A62A21A6DA80E000F63EE /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 463A62A01A6DA80E000F63EE /* LaunchScreen.xib */; };
 		463A62AE1A6DA80E000F63EE /* Tip_CalculatorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 463A62AD1A6DA80E000F63EE /* Tip_CalculatorTests.m */; };
-		46EF64F91A6E213D005D1B2C /* Settings.xib in Resources */ = {isa = PBXBuildFile; fileRef = 46EF64F81A6E213D005D1B2C /* Settings.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,7 +40,6 @@
 		463A62A71A6DA80E000F63EE /* Tip CalculatorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tip CalculatorTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		463A62AC1A6DA80E000F63EE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		463A62AD1A6DA80E000F63EE /* Tip_CalculatorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Tip_CalculatorTests.m; sourceTree = "<group>"; };
-		46EF64F81A6E213D005D1B2C /* Settings.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = Settings.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +87,6 @@
 				463A62991A6DA80E000F63EE /* TipViewController.m */,
 				463A629E1A6DA80E000F63EE /* Images.xcassets */,
 				463A629B1A6DA80E000F63EE /* Main.storyboard */,
-				46EF64F81A6E213D005D1B2C /* Settings.xib */,
 				463A62A01A6DA80E000F63EE /* LaunchScreen.xib */,
 				463A62911A6DA80E000F63EE /* Supporting Files */,
 			);
@@ -204,7 +201,6 @@
 			files = (
 				463A629D1A6DA80E000F63EE /* Main.storyboard in Resources */,
 				463A62A21A6DA80E000F63EE /* LaunchScreen.xib in Resources */,
-				46EF64F91A6E213D005D1B2C /* Settings.xib in Resources */,
 				463A629F1A6DA80E000F63EE /* Images.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

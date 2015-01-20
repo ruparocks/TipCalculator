@@ -117,7 +117,7 @@
                                     <rect key="frame" x="148" y="88" width="211" height="21"/>
                                 </variation>
                             </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="right" highlighted="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="$0.00" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-vE-JZJ">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="right" highlighted="YES" contentHorizontalAlignment="right" contentVerticalAlignment="center" text="$0.00" borderStyle="roundedRect" placeholder="$0.00" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tKd-vE-JZJ">
                                 <rect key="frame" x="118" y="90" width="243" height="30"/>
                                 <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.34999999999999998" colorSpace="deviceRGB"/>
                                 <color key="tintColor" red="1" green="1" blue="1" alpha="1" colorSpace="calibratedRGB"/>
@@ -222,10 +222,10 @@
             </objects>
             <point key="canvasLocation" x="137.5" y="151.5"/>
         </scene>
-        <!--SettingsController-->
+        <!--SettingsViewController-->
         <scene sceneID="jxw-ss-Zha">
             <objects>
-                <viewController title="SettingsController" id="Sfx-hr-NiF" sceneMemberID="viewController">
+                <viewController title="SettingsViewController" id="Sfx-hr-NiF" customClass="TipViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y9P-ra-fdb"/>
                         <viewControllerLayoutGuide type="bottom" id="U7C-sl-mwH"/>
@@ -234,58 +234,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="Background" translatesAutoresizingMaskIntoConstraints="NO" id="FvI-Gk-GUN">
-                                <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
-                                <color key="tintColor" red="0.99607849120000003" green="0.99215692280000001" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
-                            </imageView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YW7-ka-AbL">
-                                <rect key="frame" x="164" y="81" width="184" height="30"/>
-                                <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.48999999999999999" colorSpace="deviceRGB"/>
-                                <color key="textColor" red="0.99607849120000003" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Option #3:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93d-Cg-idG">
-                                <rect key="frame" x="18" y="177" width="129" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Option #1:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZU-NY-P6c">
-                                <rect key="frame" x="18" y="84" width="138" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-t7-V8V">
-                                <rect key="frame" x="164" y="128" width="184" height="30"/>
-                                <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.48999999999999999" colorSpace="deviceRGB"/>
-                                <color key="textColor" red="0.99607849120000003" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Tip Option #2:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMn-47-NAs">
-                                <rect key="frame" x="18" y="132" width="129" height="21"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
-                                <nil key="highlightedColor"/>
-                            </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-Cu-l3G">
-                                <rect key="frame" x="18" y="266" width="344" height="30"/>
-                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
-                                <state key="normal" title="Save Settings">
-                                    <color key="titleColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
-                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
-                                </state>
-                            </button>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" textAlignment="right" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Njm-Ao-gME">
-                                <rect key="frame" x="164" y="175" width="184" height="30"/>
-                                <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.48999999999999999" colorSpace="deviceRGB"/>
-                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
-                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
-                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
-                            </textField>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5W-ph-19N">
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="V5W-ph-19N">
                                 <rect key="frame" x="16" y="20" width="43" height="34"/>
                                 <gestureRecognizers/>
                                 <fontDescription key="fontDescription" type="system" pointSize="15"/>
@@ -296,8 +245,8 @@
                                     <outletCollection property="gestureRecognizers" destination="YJR-ED-gL4" appends="YES" id="MXX-vz-G5a"/>
                                 </connections>
                             </button>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip Calculator" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z79-2h-tGW">
-                                <rect key="frame" x="111" y="25" width="152" height="21"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="center" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip Calculator Settings" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="z79-2h-tGW">
+                                <rect key="frame" x="94" y="25" width="192" height="23"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="21" id="hyC-aL-ocz"/>
                                 </constraints>
@@ -308,22 +257,110 @@
                                     <rect key="frame" x="111" y="20" width="152" height="21"/>
                                 </variation>
                             </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="10%" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="YW7-ka-AbL">
+                                <rect key="frame" x="171" y="105" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.48999999999999999" colorSpace="deviceRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="184" id="CXU-gV-wYe"/>
+                                </constraints>
+                                <color key="textColor" red="0.99607849120000003" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip Option #3:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="93d-Cg-idG">
+                                <rect key="frame" x="25" y="199" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip Option #1:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="cZU-NY-P6c">
+                                <rect key="frame" x="25" y="106" width="138" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="15%" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="WU8-t7-V8V">
+                                <rect key="frame" x="171" y="150" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.48999999999999999" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.99607849120000003" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Tip Option #2:" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="aMn-47-NAs">
+                                <rect key="frame" x="25" y="154" width="129" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CkO-Cu-l3G">
+                                <rect key="frame" x="25" y="288" width="344" height="30"/>
+                                <gestureRecognizers/>
+                                <fontDescription key="fontDescription" type="boldSystem" pointSize="26"/>
+                                <state key="normal" title="Save Settings">
+                                    <color key="titleColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99607849120000003" alpha="1" colorSpace="deviceRGB"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <outletCollection property="gestureRecognizers" destination="XZX-yq-KEH" appends="YES" id="HPb-tZ-NsS"/>
+                                </connections>
+                            </button>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" ambiguous="YES" misplaced="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="20%" borderStyle="roundedRect" textAlignment="right" clearsOnBeginEditing="YES" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="Njm-Ao-gME">
+                                <rect key="frame" x="171" y="197" width="184" height="30"/>
+                                <color key="backgroundColor" red="0.53333336109999996" green="0.086274512110000007" blue="0.45098042490000001" alpha="0.48999999999999999" colorSpace="deviceRGB"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad"/>
+                            </textField>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" text="This section is under-development. Settings will not save." lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xru-oU-x6x">
+                                <rect key="frame" x="22" y="62" width="331" height="24"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="331" id="CSY-1p-YUN"/>
+                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="300" id="ikc-qu-2I3"/>
+                                    <constraint firstAttribute="height" constant="24" id="zFR-h2-IUg"/>
+                                </constraints>
+                                <fontDescription key="fontDescription" type="system" pointSize="12"/>
+                                <color key="textColor" red="0.99215692280000001" green="0.99607849120000003" blue="0.99215692280000001" alpha="1" colorSpace="deviceRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
-                        <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                        <color key="backgroundColor" red="0.93725496530532837" green="0.34887840933112058" blue="0.36272256173269157" alpha="1" colorSpace="deviceRGB"/>
                         <constraints>
-                            <constraint firstAttribute="trailing" secondItem="FvI-Gk-GUN" secondAttribute="trailing" id="8D0-YJ-B0m"/>
-                            <constraint firstItem="FvI-Gk-GUN" firstAttribute="top" secondItem="d4J-m2-FOf" secondAttribute="top" id="Xf5-Lw-zo3"/>
-                            <constraint firstItem="FvI-Gk-GUN" firstAttribute="centerX" secondItem="z79-2h-tGW" secondAttribute="centerX" id="YRH-gT-Fl2"/>
-                            <constraint firstItem="FvI-Gk-GUN" firstAttribute="leading" secondItem="d4J-m2-FOf" secondAttribute="leading" id="q6r-gB-rJv"/>
-                            <constraint firstItem="FvI-Gk-GUN" firstAttribute="bottom" secondItem="U7C-sl-mwH" secondAttribute="top" id="uyP-jD-WPE"/>
+                            <constraint firstItem="xru-oU-x6x" firstAttribute="leading" secondItem="aMn-47-NAs" secondAttribute="leading" constant="-3" id="09m-Bs-fsH"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="leading" secondItem="WU8-t7-V8V" secondAttribute="leading" id="1YK-ny-wmh"/>
+                            <constraint firstItem="xru-oU-x6x" firstAttribute="leading" secondItem="cZU-NY-P6c" secondAttribute="leading" constant="-3" id="3uZ-Xi-5Wh"/>
+                            <constraint firstItem="z79-2h-tGW" firstAttribute="leading" secondItem="V5W-ph-19N" secondAttribute="trailing" constant="52" id="5JN-iL-IS8"/>
+                            <constraint firstItem="WU8-t7-V8V" firstAttribute="top" secondItem="YW7-ka-AbL" secondAttribute="bottom" constant="15" id="6BY-ur-Qim"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="leading" secondItem="cZU-NY-P6c" secondAttribute="trailing" constant="8" symbolic="YES" id="FXs-JG-a00"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="YW7-ka-AbL" secondAttribute="trailing" constant="4" id="Ioy-8h-r8k"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="trailing" secondItem="Njm-Ao-gME" secondAttribute="trailing" id="Iz8-JQ-BKj"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="trailing" secondItem="WU8-t7-V8V" secondAttribute="trailing" id="JeT-JT-33M"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="top" secondItem="xru-oU-x6x" secondAttribute="bottom" constant="19" id="Mhr-wm-9PU"/>
+                            <constraint firstItem="xru-oU-x6x" firstAttribute="leading" secondItem="93d-Cg-idG" secondAttribute="leading" constant="-3" id="ZSD-sj-kEU"/>
+                            <constraint firstItem="xru-oU-x6x" firstAttribute="leading" secondItem="CkO-Cu-l3G" secondAttribute="leading" constant="-3" id="cw9-7j-WCz"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="leading" secondItem="Njm-Ao-gME" secondAttribute="leading" id="gRc-D1-l6r"/>
+                            <constraint firstItem="xru-oU-x6x" firstAttribute="top" secondItem="V5W-ph-19N" secondAttribute="bottom" constant="8" symbolic="YES" id="jxO-xU-Dmz"/>
+                            <constraint firstItem="xru-oU-x6x" firstAttribute="leading" secondItem="d4J-m2-FOf" secondAttribute="leadingMargin" constant="6" id="p9T-gl-o8v"/>
+                            <constraint firstItem="z79-2h-tGW" firstAttribute="top" secondItem="y9P-ra-fdb" secondAttribute="bottom" constant="5" id="rQp-If-R1E"/>
+                            <constraint firstItem="YW7-ka-AbL" firstAttribute="top" secondItem="z79-2h-tGW" secondAttribute="bottom" constant="57" id="x7B-ro-2ra"/>
                         </constraints>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                    <connections>
+                        <outlet property="tipOptionOne" destination="YW7-ka-AbL" id="6gX-Dl-FWE"/>
+                        <outlet property="tipOptionThree" destination="Njm-Ao-gME" id="zUG-eg-hzL"/>
+                        <outlet property="tipOptionTwo" destination="WU8-t7-V8V" id="r83-5f-NG9"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="q8d-nJ-upy" userLabel="First Responder" sceneMemberID="firstResponder"/>
                 <tapGestureRecognizer id="YJR-ED-gL4">
                     <connections>
                         <segue destination="BYZ-38-t0r" kind="show" id="ooF-fm-FIf"/>
+                    </connections>
+                </tapGestureRecognizer>
+                <tapGestureRecognizer id="XZX-yq-KEH">
+                    <connections>
+                        <action selector="saveSelections:" destination="Sfx-hr-NiF" id="mp4-c2-cOe"/>
+                        <segue destination="BYZ-38-t0r" kind="show" id="0be-li-zet"/>
                     </connections>
                 </tapGestureRecognizer>
             </objects>
@@ -333,4 +370,7 @@
     <resources>
         <image name="Background" width="2133" height="3787"/>
     </resources>
+    <inferredMetricsTieBreakers>
+        <segue reference="ooF-fm-FIf"/>
+    </inferredMetricsTieBreakers>
 </document>
